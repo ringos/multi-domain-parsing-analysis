@@ -12,16 +12,17 @@ We are also planning to release a Chinese multi-domain test treebank in the futu
 We release the parsed outputs of various treebanks, decoded by [the in-order transition-based parser](https://github.com/LeonCrashCode/InOrderParser) and [the re-implemented BERT-augmented version](https://github.com/dpfried/rnng-bert).
 The parsed outputs can be found in `data/parsed_outputs`.
 
-## Acknowledgements
-We thank the authors of [BLLIP](https://github.com/BLLIP/bllip-parser), [the in-order transition-based parser](https://github.com/LeonCrashCode/InOrderParser), [rnng-bert](https://github.com/dpfried/rnng-bert) and [self-attentive parser](https://github.com/nikitakit/self-attentive-parser) for sharing their code and model checkpoints. 
-
-## Cite
+## Citation
+If you use our data, please consider citing the following work:
 ```
 @inproceedings{crossdomain-parsing-analysis,
-  author = {Sen Yang and Leyang Cui and Ruoxi Ning and Di Wu and Yue Zhang},
+  author = {Yang, Sen and Cui, Leyang and Ning, Ruoxi and Wu, Di and Zhang, Yue},
   title = {Challenges to Open-Domain Constituency Parsing},
-  booktitle = {Findings of ACL},
-  year = {2022},
+  booktitle = "Findins of the 60th Conference of the Association for Computational Linguistics",
+  year = "2022",
+  publisher = "Association for Computational Linguistics",
 } 
+```
 
-
+## Acknowledgements
+We thank the authors of [BLLIP](https://github.com/BLLIP/bllip-parser), [the in-order transition-based parser](https://github.com/LeonCrashCode/InOrderParser), [rnng-bert](https://github.com/dpfried/rnng-bert) and [self-attentive parser](https://github.com/nikitakit/self-attentive-parser) for sharing their code and model checkpoints. 
